@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Free Online Video Downloader</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Free Online Video Downloader</h1>
+    <input type="text" id="videoUrl" placeholder="Paste video URL">
+    <button onclick="getVideoInfo()">Get Video Info</button>
+    <div id="videoInfoContainer" style="display: none;">
+      <h2 id="videoTitle"></h2>
+      <p id="videoDuration"></p>
+      <img id="videoThumbnail" src="" alt="Video Thumbnail">
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

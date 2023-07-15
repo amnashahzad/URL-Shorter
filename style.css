@@ -1,0 +1,26 @@
+.container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  input[type="text"] {
+    width: 400px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  #videoInfoContainer {
+    margin-top: 30px;
+  }
+  
+  #videoThumbnail {
+    max-width: 400px;
+  }
+  
